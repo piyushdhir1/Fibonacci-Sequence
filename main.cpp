@@ -6,13 +6,13 @@ int fib (int n)
 	{
 		return 1;
 	}
-	return fib(n-2) + fib (n-1);
+	return fib(n-2) + fib(n-1);
 }
 int main()
 {
 	int a;
-	cout<<"enter your number : "<<endl;
+	cout<<"Enter your number : "<<endl;
 	cin>>a;
-	cout<<"the fibonacci sequence of the number will be :  "<<fib(a)<<endl;
+	cout<<"The fibonacci sequence of the number will be :  "<<fib(a)<<endl;
 	return 0;
 }
